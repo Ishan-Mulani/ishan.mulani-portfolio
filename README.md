@@ -1,6 +1,12 @@
 # My Portfoliio
 
 Just getting started with web dev 
-Following Tanay Pratap tutorials on YouTube
+
+Following Tanay Pratap tutorials on YouTube.
 
 
+For now, I know:
+1. JavaScript
+1. NodeJS
+1. Repl.it
+1. CHALK
