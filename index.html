@@ -4,115 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ishan Mulani</title>
-    <link href="styles.css" rel="stylesheet">
+    <title>Home | Ishan Mulani</title>
+    <link href="/styles.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to Ishan's component library. </h1>
-    <h2>Text Formatting</h2>
-    <p>This is normal text using "para"grapgh tag in HTML. It used to write normal text in HTML. We can form "para"gragphs and write length text using this tag.</p>
-    <small >August 22nd</small>
-
-    <hr>
-
-
-    <h2 >@container</h2>
-
-    <h3>Fluid container</h3>
-    <div>This is fluid container and it will expand to the width of the page and wrap around until the text is complete. This is amazing. I very exicted to learn more.</div>
-
-    <h3>Center container</h3>
-    <div>This is center container and it will remain in center</div>
-
-    <hr>
-
-
-    <h2>@links</h2>
-    <a href="https://www.google.com">Primary Link</a>
-    <a href="https://www.amazon.in">Secondary Link</a>
-
-    <hr>
-
-
-    <h2>@lists</h2>
-
-    <h3>Unorder lists</h3>
-    <ul ">
-        <li>Element One</li>
-        <li>Element Two</li>
-        <li>Element Three</li>
-    </ul>
-
-    <h3>Unodered inline list</h3>
-    <ul>
-        <li>Inline element One</li>
-        <li>Inline element Two</li>
-        <li>Inline element Three</li>
-    </ul>
-    
-    <h3>Reverse order list</h3>
-    <ol>
-        <li>Book</li>
-        <li>Pen</li>
-        <li>Calculator</li>
-    </ol>
-     
-    <hr>
-
-
-    <h3>@nav</h3>
-    <nav>
-        <div>Brand_Name</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation container">
+        <div class="brand-name">Ishan Mulani</div>
+        <ul class="non-bullet-list nav-pills">
+            <li class="list-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Projects</a>
+            <li class="list-inline">
+                <a class="link" href="/projects.html">Projects</a>
             </li>
-            <li>
-                <a href="/">About me</a>
+            <li class="list-inline">
+                <a class="link" href="/about-me.html">About me</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
 
 
-    <h2>Header</h2>
-    <header>
-        <img src="https://i.pinimg.com/564x/e5/5e/d6/e55ed652190d7bc9f719be0bba53ac78.jpg" alt="">
-        <h1>Heading inside Hero</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/coding_image.svg" alt="">
+        <h1 class="hero-heading">Ishan Mulani the <span style="color:var(--primary-color) ">Web developer</span></h1>
     </header>
 
-    <hr>
-
-
-
-    <h2>@sections</h2>
-
-    <section>
-        <h3>White section</h3>
-        <p>This will have white background</p>
+    <section class="section offwhite">
+        <div class="container center-container" >
+            <h1>Technologies</h3>
+                <p>I'm familiar with HTMl, CSS, Javascript, NodeJS, Web hosting, Python, Git, UI/UX design, Figma.</p>
+        </div>
     </section>
 
-    <section>
-        <h3>Offwhite section</h3>
-        <p>This will have gray backgroud</p>
+
+    <section class="section">
+        <div class="container center-container" >
+            <h1>Projects</h3>
+                <p>I like to showcase my work and thus you can see my Projects hosted 
+                online.</p>
+                <a class="link link-primary" href="/projects.html">Browse Projects</a>
+        </div>
     </section>
-
-    <hr>
-
-
-    <h2>@footer</h2>
     
-    <footer>
-        <div>Some small heading insde footer</div>
-        <ul>
-            <li>Instagram</li>
-            <li>GitHub</li>
-            <li>LinkedIn</li>
+
+
+    <section class="section offwhite">
+        <div class="container center-container" >
+            <h1>Blogs</h3>
+                <p>I am also working on some technical and non technical  blogs. I like to document my journey of learning</p>
+                <a class="link link-secondary" href="https://firstsiteguide.com/what-is-blog/"> Read Blogs</a>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-heading">Want to connect with me.</div>
+        <ul class="non-bullet-list">
+            <li class="list-inline">
+                <a class="link" href="https://www.instagram.com/ishan_mulani/">Instagram</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="/">LinkedIn</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="/">Twitter</a>
+            </li>
         </ul>
     </footer>
+
 </body>
 </html>
