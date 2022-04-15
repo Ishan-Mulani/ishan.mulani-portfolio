@@ -4,74 +4,194 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Ishan Mulani</title>
-    <link href="/styles.css" rel="stylesheet">
+    <title>Document</title>
+
+    <!-- link utilities css -->
+
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Googel Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <nav class="navigation container">
-        <div class="brand-name">Ishan Mulani</div>
-        <ul class="non-bullet-list nav-pills">
-            <li class="list-inline">
-                <a class="link link-active" href="/">Home</a>
-            </li>
-            <li class="list-inline">
-                <a class="link" href="/projects.html">Projects</a>
-            </li>
-            <li class="list-inline">
-                <a class="link" href="/about-me.html">About me</a>
-            </li>
-        </ul>
-    </nav>
 
-
-
-    <header class="hero">
-        <img class="hero-img" src="images/coding_image.svg" alt="">
-        <h1 class="hero-heading">Ishan Mulani the <span style="color:var(--primary-color) ">Web developer</span></h1>
-    </header>
-
-    <section class="section offwhite">
-        <div class="container center-container" >
-            <h1>Technologies</h3>
-                <p>I'm familiar with HTMl, CSS, Javascript, NodeJS, Web hosting, Python, Git, UI/UX design, Figma.</p>
+    <!-- Hero section -->
+    <section id="home" class="section-hero">
+        <div class="navbar ">
+            <div class="logo">
+                <a href="/"><span class="brand-logo">
+                    IM
+                </span></a>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="resume">
+                <a class="btn-download-resume" href="/file/ISHAN MULANI RESUME.pdf" download="">Download Resume</a>
+            </div>
         </div>
+
+
+        <div class="container-hero">
+            <div class="image-container">
+                <img class="hero-image" src="/images/max-duzij-qAjJk-un3BI-unsplash (1).jpg" alt="">
+            </div>
+            <div class="intro-container">
+                <span class="greeting">HELLO EVERYBODY, I AM</span>
+                <span class="my-name">ISHAN MULANI</span>
+                <span class="web-dev">Web Developer</span>
+            </div>
+
+        </div>
+    </section> 
+
+    <!-- About me section -->
+    <section id="about-me" class="section-about-me">
+        <div class="outter-about-me">
+            <div class="about-me-title">
+                <span class="span-about-me">About<br>Me</span>
+            </div>
+            <div class="about-me-content">
+                <p class="about-me-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ipsa quo praesentium sit. Eum labore architecto cumque dolore! Reprehenderit saepe laboriosam molestiae reiciendis alias adipisci expedita magni deleniti tenetur ex.
+                Facere molestias est tempora debitis adipisci esse beatae impedit, sit harum in ipsum quos dolore necessitatibus. Voluptate enim, asperiores obcaecati ducimus dolor, eligendi minima voluptatibus hic odit consequatur fugiat esse?
+                Molestiae, totam est, animi laudantium repudiandae quae nostrum necessitatibus quisquam culpa et possimus. Fugit optio, maxime hic deleniti reprehenderit, cumque mollitia eveniet quidem facilis, illum nesciunt eligendi omnis! Minima, assumenda?
+                </p>
+            </div>
+        </div>
+
+    </section> 
+
+    <!-- Skills section -->
+    <section id="skills" class="section-skills">
+       <div class="outter-skills">
+        <div class="skills-content">
+            <p class="skills-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ipsa quo praesentium sit. Eum labore architecto cumque dolore! Reprehenderit saepe laboriosam molestiae reiciendis alias adipisci expedita magni deleniti tenetur ex.
+            Facere molestias est tempora debitis adipisci esse beatae impedit, sit harum in ipsum quos dolore necessitatibus. Voluptate enim, asperiores obcaecati ducimus dolor, eligendi minima voluptatibus hic odit consequatur fugiat esse?
+            Molestiae, totam est, animi laudantium repudiandae quae nostrum necessitatibus quisquam culpa et possimus. Fugit optio, maxime hic deleniti reprehenderit, cumque mollitia eveniet quidem facilis, illum nesciunt eligendi omnis! Minima, assumenda?
+            </p>
+        </div>
+        <div class="skills-title">
+            <span class="span-skills">My<br>Skills</span>
+        </div>
+       </div>
+
     </section>
 
-
-    <section class="section">
-        <div class="container center-container" >
-            <h1>Projects</h3>
-                <p>I like to showcase my work and thus you can see my Projects hosted 
-                online.</p>
-                <a class="link link-primary" href="/projects.html">Browse Projects</a>
+    <!-- Project section -->
+    <section id="project" class="section-project">
+        <div class="projects-title">
+            <h1 class="h1-projects">Projects</h1>
         </div>
-    </section>
+
+        <div class="outter-projects">
+            <div class="project-container project-container-1">
+                <span class="project-name">Project 1</span>
+                <p class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore distinctio molestias cumque dolor! Ad accusamus sed libero reprehenderit nostrum explicabo eveniet earum nisi aliquid laborum, tempora totam architecto sequi illo?</p>
+                <div class="project-links">
+                    <a class="btn-view" href="/">View</a>
+                    <a class="btn-github" href="/">GitHub</a>
+                </div>
+                
+            </div>
+            <div class="project-container project-container-2">
+                <span class="project-name">Project 1</span>
+                <p class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore distinctio  earum nisi aliquid laborum, tempora totam architecto sequi illo?</p>
+                <div class="project-links">
+                    <a class="btn-view" href="/">View</a>
+                    <a class="btn-github" href="/">GitHub</a>
+                </div>
+            </div>
+            <div class="project-container project-container-3">
+                <span class="project-name">Project 1</span>
+                <p class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore distinctio molestias cumque dolor! Ad accusamus sed libero reprehenderit nostrum explicabo eveniet earum nisi aliquid laborum, tempora totam architecto sequi illo?</p>
+                <div class="project-links">
+                    <a class="btn-view" href="/">View</a>
+                    <a class="btn-github" href="/">GitHub</a>
+                </div>
+            </div>
+            <div class="project-container project-container-4">
+                <span class="project-name">Emoji Interpretor</span>
+                <p class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore distinctio molestias cumque dolor! Ad accusamus sed libero reprehenderit nostrum explicabo eveniet earum nisi aliquid laborum, tempora totam architecto sequi illo?</p>
+                <div class="project-links">
+                    <a class="btn-view" href="https://wotf3.csb.app/">View</a>
+                    <a class="btn-github" href="https://github.com/Ishan-Mulani/emoji-interpretor">GitHub</a>
+                </div>
+            </div>
+            <div class="project-container project-container-5">
+                <span class="project-name">Money Hiest</span>
+                <p class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore distinctio molestias cumque dolor! Ad accusamus sed libero reprehenderit nostrum explicabo eveniet earum nisi aliquid laborum, tempora totam architecto sequi illo?</p>
+                <div class="project-links">
+                    <a class="btn-view" href="https://replit.com/@IshanMulani/MoneyHeistQuiz?embed=1&output=1">View</a>
+                    <a class="btn-github" href="https://github.com/Ishan-Mulani/MoneyHiest">GitHub</a>
+                </div>
+            </div>
+            <div class="project-container project-container-6">
+                <span class="project-name">Do you know me ?</span>
+                <p class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore distinctio molestias cumque dolor! Ad accusamus sed libero reprehenderit nostrum explicabo eveniet earum nisi aliquid laborum, tempora totam architecto sequi illo?</p>
+                <div class="project-links">
+                    <a class="btn-view" href="https://replit.com/@IshanMulani/DoYouKnowMe?embed=1&output=1#index.js">View</a>
+                    <a class="btn-github" href="https://github.com/Ishan-Mulani/Do-you-know-me">GitHub</a>
+                </div>
+        </div>
+
+    </section> 
+
+    <!-- Contact section -->
+    <section id="contact" class="section-contact">
+        <div class="contact-title">
+            <h1 class="h1-contact">Contact Me</h1>
+        </div>
+        <div class="outter-contact">
+            
+               <form class="contact-form" onsubmit="sendEmail(); reset(); return false;">
+                <input class="input-contact" id="input-name" type="text" placeholder="Name">
+                <input class="input-contact" id="input-email" type="email" placeholder="Email">
+                <input class="input-contact" id="input-subject" type="text" placeholder="Subject">
+                <textarea class="input-contact" name="" id="input-message" cols="100" rows="0" placeholder="Message"></textarea>
+                <button id="btn-send-msg"> SEND MESSAGE</button>
+               </form>
+
     
-
-
-    <section class="section offwhite">
-        <div class="container center-container" >
-            <h1>Blogs</h3>
-                <p>I am also working on some technical and non technical  blogs. I like to document my journey of learning</p>
-                <a class="link link-secondary" href="https://firstsiteguide.com/what-is-blog/"> Read Blogs</a>
+            <div class="contact-links">
+                <a class="icons" href="https://www.linkedin.com/in/ishan-mulani-38b508210/"><img src="/svg/icons8-linkedin.svg" alt=""></a>
+                <a class="icons twittter-icon" href="https://twitter.com/Ishan70259898"><img src="/svg/icons8-twitter.svg" alt=""></a>
+                <a class="icons" href="https://github.com/Ishan-Mulani"><img src="/svg/icons8-github.svg" alt=""></a>
+            </div>
         </div>
-    </section>
-
-
+    </section> 
     <footer class="footer">
-        <div class="footer-heading">Want to connect with me.</div>
-        <ul class="non-bullet-list">
-            <li class="list-inline">
-                <a class="link" href="https://www.instagram.com/ishan_mulani/">Instagram</a>
-            </li>
-            <li class="list-inline">
-                <a class="link" href="/">LinkedIn</a>
-            </li>
-            <li class="list-inline">
-                <a class="link" href="/">Twitter</a>
-            </li>
-        </ul>
+        <p>Ishan Mulani | &#169; copyright-2022</p>
     </footer>
 
+    <!-- SMTP JS -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+        function sendEmail(){
+            Email.send({
+            Host : "smtp.yourisp.com",
+            Username : "username",
+            Password : "password",
+            To : 'them@website.com',
+            From : "you@isp.com",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+            }).then(
+            message => alert(message)
+            );
+                    }
+    </script>
 </body>
-</html>
+</html> 
