@@ -205,6 +205,19 @@ ul li a {
 
 
 /* Skills section */
+p + ul{
+    list-style: circle;
+}
+
+p + ul li{
+    display: block;
+    list-style-type: disc;
+    letter-spacing: 0.3rem;
+    line-height: 1.5rem;
+    color: var(--font-color);
+}
+
+
 .section-skills{
     background-color: var(--lightRed);
 }
